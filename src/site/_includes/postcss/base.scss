@@ -1,0 +1,41 @@
+@import 'normalize.css';
+@import '_variables.scss';
+@import '_typography.scss';
+@import '_mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+/* BASE STRUCTURE */
+
+body {
+  display:flex;
+  flex-direction:column;
+}
+
+#container {
+  width:90%;
+  max-width:1024px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: row;
+}
+
+main {
+  flex-grow: 1;
+  width: 0px;
+}
+
+h1+h2{
+  margin-top:0;
+  padding-top:0;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    flex-direction: column;
+  }
+}

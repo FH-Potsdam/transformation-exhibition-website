@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include 'parts/head.njk' %}
+  <body>
+    <header id="header">
+    </header>
+    <div id="container">
+      <main>
+        {{ content | safe }}
+      </main>
+    </div>
+    {% include 'parts/footer.njk' %}
+    <script src="/js/main.js"></script>
+  </body>
+</html>
