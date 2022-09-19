@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Anthony';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Anthony.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Anthony.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Anthony.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Anthony.woff') format('woff'); /* Modern browsers */
+}

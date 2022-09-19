@@ -6,27 +6,32 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
   box-sizing:border-box;
 }
 
 /* BASE STRUCTURE */
 
 body {
-  display:flex;
-  flex-direction:column;
+  background-image: url(/images/bg/bg.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:100vh;
+  width:100%;
+  font-size: calc(16px * $desktop_ratio);
+  line-height: calc(20px * $desktop_ratio);
 }
 
-#container {
-  width:90%;
-  max-width:1024px;
-  margin:0 auto;
-  display:flex;
-  flex-direction: row;
+::-moz-selection { /* Code for Firefox */
+  background: #00ff94;
+}
+
+::selection {
+  background: #00ff94;
 }
 
 main {
-  flex-grow: 1;
-  width: 0px;
+  padding: 40px;
 }
 
 h1+h2{
@@ -34,8 +39,105 @@ h1+h2{
   padding-top:0;
 }
 
-@media screen and (max-width: 768px) {
-  #container {
-    flex-direction: column;
+h3 {
+  font-family: $font__family_special;
+  font-size: calc(55px * $desktop_ratio);
+  padding-bottom: calc(30px * $desktop_ratio);
+  font-weight:normal;
+  padding-top: calc(40px * $desktop_ratio);
+}
+
+ul#program, ul#program li, ul#program ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+ul#program {
+  .date {
+    padding-left: calc(30px * $desktop_ratio);
+  }
+  strong {
+    max-width: calc(450px * $desktop_ratio);
+    font-size: calc(24px * $desktop_ratio);
+    text-align: left;
+    text-align-last: right;
+    display: block;
+    padding-bottom: calc(10px * $desktop_ratio);
+    line-height: calc(24px * $desktop_ratio);
+    &.short {
+      text-align-last: left;
+    }
+  }
+  &>li {
+    padding-bottom: calc(20px * $desktop_ratio);
+    &>ul>li{
+      padding-bottom: calc(15px * $desktop_ratio);
+      &:last-child {
+        padding-bottom: calc(10px * $desktop_ratio);
+      }
+      &>span {
+        padding-left: calc(30px * $desktop_ratio);
+      }
+    }
   }
 }
+
+ul#location, ul#location li {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+ul#location li {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h3 {
+    font-size: 55px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+  ul#program {
+    .date {
+      padding-left: 30px;
+    }
+    strong {
+      max-width: 450px;
+      font-size: 24px;
+      padding-bottom:10px;
+      line-height: 24px;
+    }
+    &>li {
+      padding-bottom: 20px;
+      &>ul>li{
+        padding-bottom:15px;
+        &:last-child {
+          padding-bottom:10px;
+        }
+        &>span {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h3 {
+    font-size: calc(55px * $mobile_ratio);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main {
+    padding: 20px;
+  }
+}
+
+@import '_header.scss';

@@ -6,7 +6,65 @@ eleventyNavigation:
   order: 0
 ---
 
-## Ausstellung
-# Transformation
-## 20. bis 22.10.2022, Fachhochschule Potsdam
-Weitere Informationen in Kürze.
+<img src="/images/logo-fhp-abbrev-black.svg" alt="Fachhochschule Potsdam" id="fhp-logo" />
+
+<h2 class="transformation">20.&nbsp;–&nbsp;22.10.</h2>
+<h1 class="transformation"><span>Trans</span><wbr><span>forma</span><wbr><span>tion</span>&nbsp;<span class="close special">–></span><span class="special">&nbsp;Die</span><wbr><span class="special">Ausstel</span><wbr><span class="special">lung</span></h1>
+
+<h2 class="subline"><span>Transformation gestalten.</span><br /><span>Gestaltung transformieren.</span></h2>
+<p class="subline">Eine Ausstellung studentischer Arbeiten des <a href="https://www.fh-potsdam.de/studium-weiterbildung/fachbereiche/fachbereich-design">Fachbereich Design</a> der Fachhochschule Potsdam.<br /><br />Vom 20. bis 22.10.2022, täglich&nbsp;von&nbsp;12&nbsp;bis&nbsp;20&nbsp;Uhr</p>
+
+### Programm
+<ul id="program">
+  <li>
+    <span class="date">Do. 20.10., 15 bis 20 Uhr</span><br />
+    <strong>Symposium: Design und Transformation</strong>
+    <!--<ul>
+      <li>
+        <span>Session I: 15 bis 17 Uhr</span>
+        <ul>
+          <li>SPEAKER I</li>
+          <li>SPEAKER II</li>
+        </ul>
+      </li>
+      <li>
+        <span>Session II: 18 bis 20 Uhr</span>
+        <ul>
+          <li>SPEAKER I</li>
+          <li>SPEAKER II</li>
+        </ul>
+      </li>
+    </ul>-->
+  </li>
+  <li>
+    <span class="date">Fr. 21.10., 17 bis 19 Uhr</span><br />
+    <strong>Typographische Konferenz:<br />Further Reading - Perspectives on designing texts</strong>
+  </li>
+  <li>
+    <span class="date">Sa. 22.10., 15 Uhr</span><br />
+    <strong>Geburtstagsfeier: 30 Jahre Fachbereich Design</strong>
+  </li>
+  <li>
+    <span class="date">Sa. 22.10., 18 Uhr</span><br />
+    <strong class="short">Grande Finale</strong>
+  </li>
+</ul>
+
+### Ort
+<ul id="location">
+  <li>52.413772266, 13.0507128302</li>
+  <li>Fachhochschule Potsdam<br />Kiepenheuerallee 5, 14469 Potsdam</li>
+  <li>Tram 92/96, Haltestelle: Campus&nbsp;Fachhochschule</li>
+  <li>Bus 692,  Haltestelle: Schlegelstraße/Pappelalle</li>
+</ul>
+
+
+### Kontakt
+[werkschau@fh-potsdam.de](mailto:werkschau@fh-potsdam.de)<br />
+[www.fh-potsdam.de/design](https://www.fh-potsdam.de/design)
+
+#### Ansprechpartner
+Prof. Dr. Sebastian Meier<br />
+sebastian.meier@fh-potsdam.de
+
+[Impressum](https://www.fh-potsdam.de/impressum) | [Datenschutz](https://www.fh-potsdam.de/datenschutz)

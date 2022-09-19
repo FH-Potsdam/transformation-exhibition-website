@@ -1,0 +1,136 @@
+h1.transformation {
+  padding-bottom: 15px;
+  font-size:calc(90px * $desktop_ratio);
+  line-height:calc(75px * $desktop_ratio);
+  width:100px;
+  text-transform:uppercase;
+  span:nth-of-type(2){
+    padding-left: calc(105px * $desktop_ratio);
+  }
+  span:nth-of-type(7){
+    padding-left: calc(240px * $desktop_ratio);
+  }
+  span.special {
+    white-space: nowrap;
+    font-family: $font__family_special;
+    font-weight: normal;
+    line-height:calc(53px * $desktop_ratio);
+  }
+  span.close {
+    letter-spacing: calc(-15px * $desktop_ratio);
+  }
+}
+
+h2.transformation {
+  white-space: nowrap;
+  font-weight: normal;
+  font-family: $font__family_special;
+  font-size: calc(55px * $desktop_ratio);
+  line-height: calc(45px * $desktop_ratio);
+}
+
+h2.subline {
+  span:nth-of-type(2) {
+    padding-left: calc(120px * $desktop_ratio);
+  }
+  font-size:calc(24px * $desktop_ratio);
+  line-height:calc(30px * $desktop_ratio);
+  padding-bottom: 15px;
+}
+
+p.subline{
+  max-width: calc(450px * $desktop_ratio);
+  font-size:calc(16px * $desktop_ratio);
+  line-height:calc(20px *  $desktop_ratio);
+}
+
+#fhp-logo {
+  position: fixed;
+  height: 50px;
+  width: auto;
+  right: 10px;
+  top: 80px;
+  transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 850px) {
+  #fhp-logo {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h2.subline {
+    span:nth-of-type(2) {
+      padding-left: 120px;
+    }
+    font-size:24px;
+    line-height:30px;
+  }
+  
+  p.subline{
+    max-width: 450px;
+    font-size:16px;
+    line-height: 20px;
+  }
+
+  h1.transformation {
+    font-size:90px;
+    line-height:75px;
+    span:nth-of-type(2){
+      padding-left: 105px;
+    }
+    span:nth-of-type(7){
+      padding-left: 240px;
+    }
+    span.special {
+      line-height:53px;
+    }
+    span.close {
+      letter-spacing: -15px;
+    }
+  }
+
+  h2.transformation {
+    font-size: 55px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #fhp-logo {
+    right: 0px;
+    top: 45px;
+    transform: rotate(90deg);
+    height: 30px;
+    width: auto;
+  }
+
+  h1.transformation {
+    font-size:calc(90px * $mobile_ratio);
+    line-height:calc(75px * $mobile_ratio);
+    span:nth-of-type(2){
+      padding-left: calc(105px * $mobile_ratio);
+    }
+    span:nth-of-type(7){
+      padding-left: calc(240px * $mobile_ratio);
+    }
+    span.close {
+      letter-spacing: calc(-15px * $mobile_ratio);
+    }
+    span.special {
+      line-height: calc(53px * $mobile_ratio);
+    }
+  }
+  
+  h2.transformation {
+    font-size: calc(55px * $mobile_ratio);
+    line-height: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #fhp-logo {
+    height: 20px;
+  }
+}

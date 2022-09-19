@@ -1,22 +1,22 @@
 /*----- TYPOGRAPHY ------*/
 
-@import '_fonts/_ibmplex.scss';
-@import '_fonts/_inter.scss';
+@import '_fonts/_anthony.scss';
+@import '_fonts/_mont.scss';
 
 $font__regular: 400;
 $font__bold: 700;
-$font__extrabold: 800;
-$font__family_mono: 'IBM Plex Mono', monospace;
-$font__family: 'Inter', sans-serif;
+$font__family: 'Mont', sans-serif;
+$font__family_special: 'Anthony', sans-serif;
 
 html {
   text-rendering: optimizeLegibility;
   font-family: $font__family;
+  font-weight: $font__regular;
 }
 
 @mixin font__h1 {
   font-size: 40px;
-  font-weight: $font__extrabold;
+  font-weight: $font__bold;
 }
 
 @mixin font__h2 {
@@ -31,7 +31,7 @@ html {
 }
 
 @mixin font__h4 {
-  font-size: 16px;
+  font-size: calc(16px * $desktop_ratio);
   font-weight: $font__bold;
 }
 
@@ -41,8 +41,8 @@ html {
 }
 
 @mixin font__p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: calc(16px * $desktop_ratio);
+  line-height: calc(24px * $desktop_ratio);
   font-weight: $font__regular;
 }
 
@@ -71,14 +71,21 @@ b, strong {font-weight:$font__bold;}
 
 h1 { @include font__h1; padding-bottom: 15px; }
 h2 { @include font__h2; padding-bottom: 15px; }
-h3 { @include font__h3; padding-bottom: 15px; margin-top: 30px; }
-h4 { @include font__h4; padding-bottom: 15px; }
+h3 { @include font__h3; padding-bottom: 15px;}
+h4 { @include font__h4; padding-bottom: 0; }
 p { @include font__p; padding-bottom: 15px; }
 a {
-  text-decoration: none;
-  color: $accent-color;
+  text-decoration: underline;
+  color: black;
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: black;
+    text-decoration: line-through;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p, h4 {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
