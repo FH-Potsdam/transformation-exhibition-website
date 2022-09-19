@@ -18,7 +18,7 @@ eleventyNavigation:
 <ul id="program">
   <li>
     <span class="date">Do. 20.10., 15 bis 20 Uhr</span><br />
-    <strong>Symposium: Design und Transformation</strong>
+    <strong>Vorträge: Design und Transformation</strong>
     <!--<ul>
       <li>
         <span>Session I: 15 bis 17 Uhr</span>
@@ -38,7 +38,7 @@ eleventyNavigation:
   </li>
   <li>
     <span class="date">Fr. 21.10., 17 bis 19 Uhr</span><br />
-    <strong>Typographische Konferenz:<br />Further Reading - Perspectives on designing texts</strong>
+    <strong>Symposium:<br />Further Reading: Perspectives on designing texts</strong>
   </li>
   <li>
     <span class="date">Sa. 22.10., 15 Uhr</span><br />
