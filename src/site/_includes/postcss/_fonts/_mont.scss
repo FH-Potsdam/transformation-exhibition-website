@@ -2,38 +2,14 @@
   font-family: 'Mont';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/Mont-Trial-Book.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Mont-Trial-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Mont-Trial-Book.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Mont-Trial-Book.woff') format('woff'); /* Modern Browsers */
-}
-
-@font-face {
-  font-family: 'Mont';
-  font-style: italic;
-  font-weight: 400;
-  src: url('/fonts/Mont-Trial-BookItalic.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Mont-Trial-BookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Mont-Trial-BookItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Mont-Trial-BookItalic.woff') format('woff'); /* Modern Browsers */
+  src: url('/fonts/Mont-Book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Mont-Book.woff') format('woff'); /* Modern Browsers */
 }
 
 @font-face {
   font-family: 'Mont';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/Mont-Trial-Bold.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Mont-Trial-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Mont-Trial-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Mont-Trial-Bold.woff') format('woff'); /* Modern Browsers */
-}
-
-@font-face {
-  font-family: 'Mont';
-  font-style: italic;
-  font-weight: 700;
-  src: url('/fonts/Mont-Trial-BoldItalic.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Mont-Trial-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Mont-Trial-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Mont-Trial-BoldItalic.woff') format('woff'); /* Modern Browsers */
+  src: url('/fonts/Mont-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Mont-Bold.woff') format('woff'); /* Modern Browsers */
 }
