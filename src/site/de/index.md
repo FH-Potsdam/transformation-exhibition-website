@@ -39,6 +39,7 @@ eleventyNavigation:
   <li>
     <span class="date">Fr. 21.10., 17 bis 19 Uhr</span><br />
     <strong>Symposium:<br />Further Reading: Perspectives on designing texts</strong>
+    <p style="width:100%; text-align:right; max-width:675px;"><a href="https://furtherreading.fh-potsdam.de/">Mehr erfahren &raquo;</a></p>
   </li>
   <li>
     <span class="date">Sa. 22.10., 15 Uhr</span><br />
