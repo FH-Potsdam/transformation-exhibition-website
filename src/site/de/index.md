@@ -19,22 +19,37 @@ eleventyNavigation:
   <li>
     <span class="date">Do. 20.10., 15 bis 20 Uhr</span><br />
     <strong>Vorträge: Design und Transformation</strong>
-    <!--<ul>
+    <ul>
       <li>
-        <span>Session I: 15 bis 17 Uhr</span>
-        <ul>
-          <li>SPEAKER I</li>
-          <li>SPEAKER II</li>
+        <span>Session I: 15 bis 17 Uhr (in Englisch)<br />Auch via <a href="https://fh-potsdam.zoom.us/j/68284661848?pwd=K09odHp3WGNLbDVrTWVxWjBIVWE3Zz09">Zoom</a>, PIN: 62758538</span>
+        <ul class="speakers">
+          <li>
+            <strong>Jessica Oddi</strong>
+            <p>Disabling Design - Creative Practices for Community Care</p>
+            <a href="https://www.jessicaoddi.com/">www.jessicaoddi.com</a>
+          </li>
+          <li>
+            <strong>Nour Arafat</strong>
+            <p>Design Justice Network</p>
+            <a href="https://designjustice.org/steering-committee#yui_3_17_2_1_1664906221338_107">www.designjustice.org</a>
+          </li>
         </ul>
       </li>
       <li>
         <span>Session II: 18 bis 20 Uhr</span>
-        <ul>
-          <li>SPEAKER I</li>
-          <li>SPEAKER II</li>
+        <ul class="speakers">
+          <li>
+            <strong>Hannah Witte</strong>
+            <p>Typohacks: Gendersensible Typografie</p>
+            <a href="https://hannah-witte.de/">www.hannah-witte.de</a>
+          </li>
+          <li>
+            <strong>Studierenden Panel</strong>
+            <p>Design &amp; Transformation</p>
+          </li>
         </ul>
       </li>
-    </ul>-->
+    </ul>
   </li>
   <li>
     <span class="date">Fr. 21.10., 17 bis 19 Uhr</span><br />

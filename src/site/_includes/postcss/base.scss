@@ -81,6 +81,33 @@ ul#program {
       }
     }
   }
+  ul.speakers {
+    * {
+      line-height: 18px;
+    }
+    strong {
+      display:block;
+      width: 100%;
+      text-align:center;
+      text-align-last: center;
+      padding-bottom: 0px;
+      padding-top: 20px;
+      line-height: 55px;
+    }
+    li:first-of-type strong {
+      padding-top: 5px;
+    }
+    p, a{
+      max-width: 675px;
+      display:block;
+      width: 100%;
+      text-align:right;
+      text-align-last: right;
+    }
+    a {
+      padding-right: 20px;
+    }
+  }
 }
 
 ul#location, ul#location li {
