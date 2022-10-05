@@ -25,7 +25,7 @@ eleventyNavigation:
         <ul class="speakers">
           <li>
             <strong>Jessica Oddi</strong>
-            <p>Disabling Design - Creative Practices for Community Care</p>
+            <p>Disabling Design -<br />Creative Practices for Community Care</p>
             <a href="https://www.jessicaoddi.com/">www.jessicaoddi.com</a>
           </li>
           <li>
