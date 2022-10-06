@@ -39,13 +39,13 @@ eleventyNavigation:
         <span>Session II: 18 bis 20 Uhr</span>
         <ul class="speakers">
           <li>
+            <strong>Studierenden Panel</strong>
+            <p>Design &amp; Transformation</p>
+          </li>
+          <li>
             <strong>Hannah Witte</strong>
             <p>Typohacks: Gendersensible Typografie</p>
             <a href="https://hannah-witte.de/">www.hannah-witte.de</a>
-          </li>
-          <li>
-            <strong>Studierenden Panel</strong>
-            <p>Design &amp; Transformation</p>
           </li>
         </ul>
       </li>
