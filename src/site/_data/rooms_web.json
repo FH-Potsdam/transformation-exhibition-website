@@ -1,0 +1,620 @@
+[
+    {
+        "floor": "EG",
+        "room": "D002 Videostudio",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Living in a Plastic World",
+                        "students": "Franzi Hagen, Ly Hoang Thi, Emil Dax"
+                    },
+                    {
+                        "exhibit": "No Water World",
+                        "students": "Kilian Wachowiak, Maik Reinke, Lukas Horvath"
+                    },
+                    {
+                        "exhibit": "Sanita Mentis - The Homebot for your mental health",
+                        "students": "Sebastian Rist, Frank Stryj, Reto Riha"
+                    },
+                    {
+                        "exhibit": "Smartschrank3000",
+                        "students": "Ruben Weymann, David Lamb"
+                    }
+                ],
+                "seminar": "Neue Routinen. The Fantastic Spaceship Earth Garage."
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Green Colonialism – Repeating Tragedy",
+                        "students": "Sabrina Hartwig, Jina Bae, Dilara Schneider"
+                    },
+                    {
+                        "exhibit": "Microplastico",
+                        "students": "Ilia Berg"
+                    },
+                    {
+                        "exhibit": "Männersache",
+                        "students": "Tim Pohr"
+                    },
+                    {
+                        "exhibit": "Period Poverty",
+                        "students": "Tien-Kun Lai, Julia Semenikhina Sara Nowakowska"
+                    },
+                    {
+                        "exhibit": "The Mango Explainer",
+                        "students": "Kirill Tatarenkov"
+                    },
+                    {
+                        "exhibit": "The social media rabbit hole",
+                        "students": "Frederike Pauly, Aleksandra Wingert"
+                    },
+                    {
+                        "exhibit": "WASTE PROBLEM IN A NUTSHELL",
+                        "students": "Monica Lara, Sofia Ribadeneira, Patrick Herrig"
+                    }
+                ],
+                "seminar": "MotionStandard.13 | Visual Explainer »Transformation«"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "D003 Fotostudio",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Typo goes net",
+                        "students": "Simon Lindner, Maik Reinke, Dilara Fiedler, Dimitri Balzer, Philipp Daub, Antonia Hinterdobler, Linus Langkabel, Marco van Luijn, Felix Tesche, Wencke Osinski, Maria Cuervo, Giuliana Mei"
+                    }
+                ],
+                "seminar": "we.type"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "-",
+                        "students": "Jina Bae, Natalie Ille, Julia Semenikhina, Cecilia Eberhardt, Mariana Reinhardt, Niklas Schneeberger, Yves Thimian, Lena Ruzicka"
+                    },
+                    {
+                        "exhibit": "-",
+                        "students": "Jina Bae, Natalie Ille, Julia Semenikhina, Cecilia Eberhardt, Mariana Reinhardt, Niklas Schneeberger, Yves Thimian, Lena Ruzicka"
+                    }
+                ],
+                "seminar": "InfoNation"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "A Place of Belonging",
+                        "students": "Greta Landmann"
+                    },
+                    {
+                        "exhibit": "Affen versus Cyborg",
+                        "students": "Martha Carola Glinkowski"
+                    },
+                    {
+                        "exhibit": "Individuell und optimiert",
+                        "students": "Sabrina Hartwig"
+                    },
+                    {
+                        "exhibit": "Subsurface Studios",
+                        "students": "Sofia Ribadeneira"
+                    },
+                    {
+                        "exhibit": "The beautiful Work",
+                        "students": "Christian Herbst"
+                    },
+                    {
+                        "exhibit": "Work Wear",
+                        "students": "Jeanne Lavrut"
+                    }
+                ],
+                "seminar": "Zukunftszenarien im Design"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Apple Photos meets Finder",
+                        "students": "Jonas Hartweg, Valentin Leiber"
+                    },
+                    {
+                        "exhibit": "Collaborative Activities",
+                        "students": "Jona Pomerance, Silas Wolf, Carl Linz"
+                    },
+                    {
+                        "exhibit": "How do I find my items?",
+                        "students": "Marcus Schindler, Pascal Schwientek"
+                    },
+                    {
+                        "exhibit": "Siri 2.0 - Sprachsteuerung im Filemanagement",
+                        "students": "Yin Boribun, Justus Szabó"
+                    },
+                    {
+                        "exhibit": "Spaces - Multi-User Access Rights on Documents",
+                        "students": "Felisch Tesche, Gustav Neustadt, Jocelyn Neumann"
+                    },
+                    {
+                        "exhibit": "Tag-based Collections",
+                        "students": "Pia Schellenbach, Elsa Woelk"
+                    }
+                ],
+                "seminar": "End of File"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Begleitung in der Schwangerschaft",
+                        "students": "Ilia Berg, Jasmin Brunschwiler, Sascha Höver"
+                    },
+                    {
+                        "exhibit": "Service design for unwanted pregnancy",
+                        "students": "Frederike Pauly, Asami Ozawa, Yi Wen Chen"
+                    }
+                ],
+                "seminar": "Design for Transformation - Health"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "D005",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Rave Licht Labor",
+                        "students": "Tilmann Finner"
+                    }
+                ],
+                "seminar": "-"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "Eingang/Schleuse",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Into Vibrations",
+                        "students": "Zeynepsu Tuncer, Luciana Wils, Paula Kalinowski, Alexander Molkenthin"
+                    }
+                ],
+                "seminar": "Soft Spaces"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "Flur EG",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Boobie Positivity",
+                        "students": "Lilly Stöckle, Paula Schlager"
+                    }
+                ],
+                "seminar": "White cube"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "Flur EG Leuchtkästen",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "bướm",
+                        "students": "Klara Stangl"
+                    }
+                ],
+                "seminar": "Transformation des Raumes"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "Innenhof",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Spiel mit Grenzen – Mein CO2 Budget",
+                        "students": "Prof. Holger Jahn, Tobias Jänecke"
+                    }
+                ],
+                "seminar": "-"
+            }
+        ]
+    },
+    {
+        "floor": "EG",
+        "room": "Schräge vor D005",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Make one colour look like many",
+                        "students": "Mia Mahn, Paula Reschke"
+                    }
+                ],
+                "seminar": "Farbe Atelier"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D103",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "-",
+                        "students": "Franziska Cram, Jasmin Kappler, Anastasiia Ivanchenko, Jesse Altmann, Felix Burau, Levi Kollwitz"
+                    }
+                ],
+                "seminar": "Footprints"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D105",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Making the inbetween visible",
+                        "students": "May-Britt Franzen, Birte Rauch"
+                    }
+                ],
+                "seminar": "Making the inbetween visible"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D106",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "STIM POSSIBLE",
+                        "students": "Cosmo Bauer"
+                    },
+                    {
+                        "exhibit": "Soft Chair",
+                        "students": "Martha Carola Glinkowski"
+                    },
+                    {
+                        "exhibit": "Stecksessel",
+                        "students": "Jesse Altmann"
+                    },
+                    {
+                        "exhibit": "XUE Akupressurclips",
+                        "students": "Theresa Rohrberg"
+                    },
+                    {
+                        "exhibit": "μ Meditationshocker",
+                        "students": "Niki Herden"
+                    }
+                ],
+                "seminar": "Langweilen Faulenzen Nichtstun - Arbeiten an der Pause"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Drei zu Ein(s)heit",
+                        "students": "Sara Marie Was, Janina Bartmann, Alexandra Hendel"
+                    },
+                    {
+                        "exhibit": "Patchwork",
+                        "students": "Viktor Molina und Leony Schluchter"
+                    }
+                ],
+                "seminar": "Soft Spaces"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "-",
+                        "students": "Annika Ehritt, Maria Giannisi, Clara Halouska, Maxi Martha Hötzeldt, Lina Kimmel, Iuliia Krasnoperova, Oliver Lehmann, Jessica Metz, Elizaveta Mironova, Maximilian Olstedt, Lilli Marie Emilia Parthum, Jan Schlieben, Niclas Stengel, Yette Shira Strauss Suhr, Franka Sühlo, Annika von Beek, Conquista Weineck, Georg Wähmer"
+                    }
+                ],
+                "seminar": "Urbane Waldgärten"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "-",
+                        "students": "Robin Wenzel, Merrit Schomakers, Kenny Löffler, <br />Tabea Bruns, Klara Lange, Vincenzo Werner, Constantin Schmidt,Tim Pohr"
+                    }
+                ],
+                "seminar": "Auf dem Weg nach Utopia? Design mit allen Sinnen oder verloren im Nirgendwo?"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D107",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "-",
+                        "students": "Cora Wild, Yasemin Walter, Thuy Tien Vo, <br />Klara Stangl, Lisa Sperber, Chiara Maria Sgarbi, <br />Adriana Schmitt, Lena Ringel, Luisa Reissmann, <br />Isabel Redecke, Noemi Mateus, Sahra Lietzkow, <br />Jasmin Kappler, Katja Krahl, , Julia Drost"
+                    }
+                ],
+                "seminar": "Presence in absence"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "the mould",
+                        "students": "Lidia Okonowski"
+                    }
+                ],
+                "seminar": "Natur und Transformation - Visuelles Labor"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Surreal foods",
+                        "students": "Mohadese Beykzand"
+                    }
+                ],
+                "seminar": "Visuelles Labor"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D108",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "STIM POSSIBLE",
+                        "students": "Cosmo Bauer"
+                    }
+                ],
+                "seminar": "Langweilen Faulenzen Nichtstun - Arbeiten an der Pause"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Neurodivergent im Dialog",
+                        "students": "Alex Hoffmann"
+                    },
+                    {
+                        "exhibit": "Read my Lips",
+                        "students": "Johann Olstowsk, Marko van Luijn"
+                    }
+                ],
+                "seminar": "Making the inbetween visible"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "re-x-bend",
+                        "students": "Valentina Lenk"
+                    }
+                ],
+                "seminar": "Footprints"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D116",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Kein Titel",
+                        "students": "Frida Schulz"
+                    },
+                    {
+                        "exhibit": "Kein Titel",
+                        "students": "Lydia Wilke"
+                    },
+                    {
+                        "exhibit": "Ordnung",
+                        "students": "Martin Zerr"
+                    }
+                ],
+                "seminar": "Transformation des Raumes"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "D119",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Four ways to intimacy",
+                        "students": "Emma Nouriani, Ruben Balthasar, Valerie Stötzer"
+                    }
+                ],
+                "seminar": "Soft Spaces"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "sleepy hill",
+                        "students": "Natalie Hajek"
+                    }
+                ],
+                "seminar": "Natur und Transformation - Visuelles Labor"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Down to earth",
+                        "students": "Grit Steiner"
+                    },
+                    {
+                        "exhibit": "Re:Brew",
+                        "students": "Yasemin Walter, Lisa Sperber, ?"
+                    },
+                    {
+                        "exhibit": "_ JULA",
+                        "students": "Lena Ringel"
+                    }
+                ],
+                "seminar": "Phyto Power"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Relational Landscapes",
+                        "students": "Hermann Schulz, Victor Molina, Lukas Büttenbender, Peter Schwarz, Vivien Serve, Hannah Machajdik, Jennifer Pilawa, Sabrina Machado, Sara Ragel, Zinan Zhang, Milan Bargiel, Tilmann Finner"
+                    }
+                ],
+                "seminar": "Relational Landscapes"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "Flur",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "-",
+                        "students": "Lilly Stöckle, Laura Link, Theresa Rohrberg, Vivien Serve, Annika von Beek, Oliver Lehmann, Felix Magnus Newrzella, Ayleen Gabriel, Ben Spangenberg, Klara Schneider, Magdalena Pilgrim,  Emma Zylka, Veronika Strasser, Kumi Iwanaga, Annalena Abramczik, Paula Trapp"
+                    }
+                ],
+                "seminar": "Streifzüge in die Zukunft"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "Flur-links",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Fast Fashion",
+                        "students": "Klara Pröpstl"
+                    },
+                    {
+                        "exhibit": "Spilling the tea on tea",
+                        "students": "Jonas Link"
+                    },
+                    {
+                        "exhibit": "The Shedlight Gazette",
+                        "students": "Hyeonji Kim"
+                    }
+                ],
+                "seminar": "Decolonizing Data Visualization - Visualizing Postcolonies"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "",
+                        "students": ""
+                    }
+                ],
+                "seminar": "digital transformation + intercultural cooperation"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "Hochsitz",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Krawatte",
+                        "students": "Janina Bartmann"
+                    },
+                    {
+                        "exhibit": "MUTABOR",
+                        "students": "Bendix Fuhrmann"
+                    },
+                    {
+                        "exhibit": "Mäandernobjekt",
+                        "students": "Alexander Molkenthin"
+                    },
+                    {
+                        "exhibit": "Serie S",
+                        "students": "Sara Marie Was"
+                    },
+                    {
+                        "exhibit": "Speaker",
+                        "students": "Philip Sutor"
+                    }
+                ],
+                "seminar": "Design Mäandern"
+            },
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Ceramic Bowl",
+                        "students": "Klara Schneider"
+                    },
+                    {
+                        "exhibit": "Die Meditationskugel",
+                        "students": "Isabella Ruiz"
+                    },
+                    {
+                        "exhibit": "Kuchenteller",
+                        "students": "Sarah Rusche"
+                    },
+                    {
+                        "exhibit": "Schale",
+                        "students": "Alexandra Hendel"
+                    },
+                    {
+                        "exhibit": "Schüssel",
+                        "students": "Maxi  Hötzeldt"
+                    },
+                    {
+                        "exhibit": "Schüssel",
+                        "students": "Jacqueline Grob"
+                    },
+                    {
+                        "exhibit": "Tasse",
+                        "students": "Fiona Warmdt"
+                    }
+                ],
+                "seminar": "Experimentelle Gefäße"
+            }
+        ]
+    },
+    {
+        "floor": "1.OG",
+        "room": "Treppenhaus hinter D115",
+        "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Kein Titel",
+                        "students": "Lilli Marie Emilia Parthum"
+                    },
+                    {
+                        "exhibit": "Tara",
+                        "students": "Ruben Balthasar Bütterich"
+                    },
+                    {
+                        "exhibit": "folium",
+                        "students": "Jette Hielscher"
+                    }
+                ],
+                "seminar": "Lichtgestalten"
+            }
+        ]
+    }
+]
