@@ -1,9 +1,60 @@
 ---
-layout: home
+layout: sub
 pagination:
     data: seminars_web
     size: 1
     alias: seminar
 permalink: "seminar/{{ seminar.title | slugify }}/"
+eleventyComputed:
+    title: "->{{ seminar.title }}"
 ---
 
+<p style="padding-top:30px; padding-bottom:0;"><a href="/de/seminars/"><- Zurück zur Kursübersicht</a></p>
+<h2 id="sub-title">{{ title }}</h2>
+<h2 style="margin-top:0;padding-top:0;padding-left:60px;">{{ seminar.teacher }}</h2>
+
+<p style="padding-top:20px;">
+    {{seminar.description | safe}}
+</p>
+
+<p style="padding-top:20px;">
+    {{seminar.students}}
+</p>
+
+{% set lastfloor = '' %}
+
+<p style="padding-top:30px; padding-bottom:0;"><a href="/de/floorplan/"><- Zurück zum Raumplan</a></p>
+
+<div id="roomplan">
+  {% for room in rooms_web %}
+    {% set found = false %}
+    {% for _seminar in room.seminars %}
+        {% if _seminar.seminar == seminar.title %}
+            {% set found = true %}
+        {% endif %}
+    {% endfor %}
+    {% if found %}
+        {% if lastfloor != room.floor%}
+            {% set lastfloor = room.floor %}
+            <h2>{{room.floor}}</h2>
+        {% endif %}
+        <h3 id="{{room.floor | slugify}}_{{room.room | slugify}}">{{room.room}}</h3>
+        <div class="roomplan-room">
+        {% for _seminar in room.seminars %}
+            {% if _seminar.seminar == seminar.title %}
+            {% if _seminar.exhibits.length > 0 %}
+            <ul class="room-exhibit-list">
+                {% for exhibit in _seminar.exhibits %}
+                <li>
+                    {% if exhibit.exhibit != '-' %}<strong>{{exhibit.exhibit}}</strong><br />{% endif %}
+                    <span>{{exhibit.students}}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+        </div>
+    {% endif %}
+ {% endfor %}
+</div>

@@ -1,7 +1,10 @@
 ---
-title: Transformation - Raumplan
-layout: home
+title: -> Raumplan
+layout: sub
 ---
+
+<p style="padding-top:30px; padding-bottom:0;"><a href="/"><- Zurück</a></p>
+<h2 id="sub-title">{{ title }}</h2>
 
 {% set lastfloor = '' %}
 
@@ -10,18 +13,32 @@ layout: home
     {% if lastfloor != room.floor%}
         {% set lastfloor = room.floor %}
         <h2>{{room.floor}}</h2>
+        <div class="roomplan-image">
+        {% if lastfloor == '1. Obergeschoss' %}
+        {% include 'parts/floorplan_1.njk' %}
+        {% endif %}
+        {% if lastfloor == 'Erdgeschoss' %}
+        {% include 'parts/floorplan_e.njk' %}
+        {% endif %}
+        </div>
     {% endif %}
-    <h3>{{room.room}}</h3>
-    {% for seminar in room.seminars %}
-      <h4><a href="seminar/{{ seminar.seminar | slugify }}/">{{seminar.seminar}}</a></h4>
-      <ul class="room-exhibit-list">
-          {% for exhibit in seminar.exhibits %}
-          <li>
-              <strong>{{exhibit.exhibit}}</strong><br />
-              {{exhibit.students}}
-          </li>
-          {% endfor %}
-      </ul>
-    {% endfor %}
+    <h3 id="{{room.floor | slugify}}_{{room.room | slugify}}">{{room.room}}</h3>
+    <div class="roomplan-room">
+      {% for seminar in room.seminars %}
+        {% if seminar.seminar != '-' %}
+        <h4><a href="/seminar/{{ seminar.seminar | slugify }}/">{{seminar.seminar}}</a></h4>
+        {% endif %}
+        {% if seminar.exhibits.length > 0 %}
+          <ul class="room-exhibit-list">
+            {% for exhibit in seminar.exhibits %}
+            <li>
+                {% if exhibit.exhibit != '-' %}<strong>{{exhibit.exhibit}}</strong><br />{% endif %}
+                <span>{{exhibit.students}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
  {% endfor %}
 </div>

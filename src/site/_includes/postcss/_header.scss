@@ -1,3 +1,16 @@
+#sub-header {
+  zoom: 0.5;
+  margin-top: -30px;
+}
+
+#sub-title {
+  font-family: $font__family_special;
+  font-weight: normal;
+  font-size: calc(65px * $desktop_ratio);
+  padding: 0 0 50px 0;
+  line-height: 90px;
+}
+
 h1.transformation {
   padding-bottom: 15px;
   font-size:calc(90px * $desktop_ratio);
@@ -60,6 +73,14 @@ p.subline{
 }
 
 @media only screen and (max-width: 768px) {
+  #sub-title {
+    font-family: $font__family_special;
+    font-weight: normal;
+    font-size: calc(30px * $desktop_ratio);
+    padding: 0 0 50px 0;
+    line-height: 60px;
+  }
+
   h2.subline {
     span:nth-of-type(2) {
       padding-left: 120px;

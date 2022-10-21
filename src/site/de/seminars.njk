@@ -1,4 +1,18 @@
 ---
-title: Transformation - Seminare
-layout: home
+title: ->seminarübersicht
+layout: sub
 ---
+
+<p style="padding-top:30px; padding-bottom:0;"><a href="/"><- Zurück</a></p>
+<h2 id="sub-title">{{ title }}</h2>
+
+{% set lastfloor = '' %}
+
+<div id="roomplan">
+  {% for seminar in seminars_web %}
+    {% if seminar.title != '-' %}
+    <h5 style="padding-left:30px;">{{seminar.teacher}}</h5>
+    <h4><a href="/seminar/{{ seminar.title | slugify }}/">{{seminar.title}}</a></h4>
+    {% endif %}
+ {% endfor %}
+</div>

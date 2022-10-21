@@ -1,6 +1,6 @@
 [
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "D002 Videostudio",
         "seminars": [
             {
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "D003 Fotostudio",
         "seminars": [
             {
@@ -74,10 +74,6 @@
             },
             {
                 "exhibits": [
-                    {
-                        "exhibit": "-",
-                        "students": "Jina Bae, Natalie Ille, Julia Semenikhina, Cecilia Eberhardt, Mariana Reinhardt, Niklas Schneeberger, Yves Thimian, Lena Ruzicka"
-                    },
                     {
                         "exhibit": "-",
                         "students": "Jina Bae, Natalie Ille, Julia Semenikhina, Cecilia Eberhardt, Mariana Reinhardt, Niklas Schneeberger, Yves Thimian, Lena Ruzicka"
@@ -159,7 +155,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "D005",
         "seminars": [
             {
@@ -174,7 +170,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "Eingang/Schleuse",
         "seminars": [
             {
@@ -189,7 +185,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "Flur EG",
         "seminars": [
             {
@@ -204,7 +200,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "Flur EG Leuchtkästen",
         "seminars": [
             {
@@ -219,7 +215,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "Innenhof",
         "seminars": [
             {
@@ -234,7 +230,7 @@
         ]
     },
     {
-        "floor": "EG",
+        "floor": "Erdgeschoss",
         "room": "Schräge vor D005",
         "seminars": [
             {
@@ -249,7 +245,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D103",
         "seminars": [
             {
@@ -264,7 +260,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D105",
         "seminars": [
             {
@@ -279,7 +275,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D106",
         "seminars": [
             {
@@ -333,7 +329,7 @@
                 "exhibits": [
                     {
                         "exhibit": "-",
-                        "students": "Robin Wenzel, Merrit Schomakers, Kenny Löffler, <br />Tabea Bruns, Klara Lange, Vincenzo Werner, Constantin Schmidt,Tim Pohr"
+                        "students": "Robin Wenzel, Merrit Schomakers, Kenny Löffler, Tabea Bruns, Klara Lange, Vincenzo Werner, Constantin Schmidt,Tim Pohr"
                     }
                 ],
                 "seminar": "Auf dem Weg nach Utopia? Design mit allen Sinnen oder verloren im Nirgendwo?"
@@ -341,14 +337,14 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D107",
         "seminars": [
             {
                 "exhibits": [
                     {
                         "exhibit": "-",
-                        "students": "Cora Wild, Yasemin Walter, Thuy Tien Vo, <br />Klara Stangl, Lisa Sperber, Chiara Maria Sgarbi, <br />Adriana Schmitt, Lena Ringel, Luisa Reissmann, <br />Isabel Redecke, Noemi Mateus, Sahra Lietzkow, <br />Jasmin Kappler, Katja Krahl, , Julia Drost"
+                        "students": "Cora Wild, Yasemin Walter, Thuy Tien Vo, Klara Stangl, Lisa Sperber, Chiara Maria Sgarbi, Adriana Schmitt, Lena Ringel, Luisa Reissmann, Isabel Redecke, Noemi Mateus, Sahra Lietzkow, Jasmin Kappler, Katja KrahlJulia Drost"
                     }
                 ],
                 "seminar": "Presence in absence"
@@ -374,7 +370,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D108",
         "seminars": [
             {
@@ -411,7 +407,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D116",
         "seminars": [
             {
@@ -434,7 +430,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "D119",
         "seminars": [
             {
@@ -484,7 +480,7 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "Flur",
         "seminars": [
             {
@@ -499,9 +495,22 @@
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "Flur-links",
         "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Kein Titel",
+                        "students": "Lilli Marie Emilia Parthum"
+                    },
+                    {
+                        "exhibit": "folium",
+                        "students": "Jette Hielscher"
+                    }
+                ],
+                "seminar": "Lichtgestalten"
+            },
             {
                 "exhibits": [
                     {
@@ -521,19 +530,24 @@
             },
             {
                 "exhibits": [
-                    {
-                        "exhibit": "",
-                        "students": ""
-                    }
                 ],
                 "seminar": "digital transformation + intercultural cooperation"
             }
         ]
     },
     {
-        "floor": "1.OG",
+        "floor": "1. Obergeschoss",
         "room": "Hochsitz",
         "seminars": [
+            {
+                "exhibits": [
+                    {
+                        "exhibit": "Tara",
+                        "students": "Ruben Balthasar Bütterich"
+                    }
+                ],
+                "seminar": "Lichtgestalten"
+            },
             {
                 "exhibits": [
                     {
@@ -591,29 +605,6 @@
                     }
                 ],
                 "seminar": "Experimentelle Gefäße"
-            }
-        ]
-    },
-    {
-        "floor": "1.OG",
-        "room": "Treppenhaus hinter D115",
-        "seminars": [
-            {
-                "exhibits": [
-                    {
-                        "exhibit": "Kein Titel",
-                        "students": "Lilli Marie Emilia Parthum"
-                    },
-                    {
-                        "exhibit": "Tara",
-                        "students": "Ruben Balthasar Bütterich"
-                    },
-                    {
-                        "exhibit": "folium",
-                        "students": "Jette Hielscher"
-                    }
-                ],
-                "seminar": "Lichtgestalten"
             }
         ]
     }

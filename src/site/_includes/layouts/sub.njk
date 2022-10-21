@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="de">
+  {% include 'parts/head.njk' %}
+  <body>
+    <main>
+      <img src="/images/logo-fhp-abbrev-black.svg" alt="Fachhochschule Potsdam" id="fhp-logo" />
+      <div id="sub-header">
+        <h2 class="transformation">20.&nbsp;–&nbsp;22.10.</h2>
+        <h1 class="transformation"><span>Trans</span><wbr><span>forma</span><wbr><span>tion</span>&nbsp;<span class="close special">–></span><span class="special">&nbsp;Die</span><wbr><span class="special">Ausstel</span><wbr><span class="special">lung</span></h1>
+      </div>
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

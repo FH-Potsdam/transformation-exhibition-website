@@ -6,21 +6,14 @@ eleventyNavigation:
   order: 0
 ---
 
-<img src="/images/logo-fhp-abbrev-black.svg" alt="Fachhochschule Potsdam" id="fhp-logo" />
-
 <h2 class="transformation">20.&nbsp;–&nbsp;22.10.</h2>
 <h1 class="transformation"><span>Trans</span><wbr><span>forma</span><wbr><span>tion</span>&nbsp;<span class="close special">–></span><span class="special">&nbsp;Die</span><wbr><span class="special">Ausstel</span><wbr><span class="special">lung</span></h1>
 
 <h2 class="subline"><span>Transformation gestalten.</span><br /><span>Gestaltung transformieren.</span></h2>
 <p class="subline">Eine Ausstellung studentischer Arbeiten des <a href="https://www.fh-potsdam.de/studium-weiterbildung/fachbereiche/fachbereich-design">Fachbereich Design</a> der Fachhochschule Potsdam.<br /><br />Vom 20. bis 22.10.2022, täglich&nbsp;von&nbsp;12&nbsp;bis&nbsp;20&nbsp;Uhr</p>
 
-<p style="max-width: 550px;"><br /><br />
-Wir bedanken uns für die Förderungen durch<br />
-<img src="/images/studentenwerk.svg" alt="Studentenwerk Potsdam" style="width: 150px; margin-top:15px; margin-bottom:15px; margin-left: 100px;" />
-</p>
-<p style="text-indent:50px; max-width: 550px;">
-und die Unterstützung durch das hochschulinterne Förderprogramm "Gender in der Lehre".
-</p>
+<p class="special-links"><a href="/de/floorplan/">->Raumplan</a></p>
+<p class="special-links"><a href="/de/seminars/">->seminarübersicht</a></p>
 
 ### Programm
 <ul id="program">
@@ -81,6 +74,14 @@ und die Unterstützung durch das hochschulinterne Förderprogramm "Gender in der
   <li>Tram 92/96, Haltestelle: Campus&nbsp;Fachhochschule</li>
   <li>Bus 692,  Haltestelle: Schlegelstraße/Pappelalle</li>
 </ul>
+
+<p style="max-width: 550px;"><br /><br />
+Wir bedanken uns für die Förderungen durch<br />
+<img src="/images/studentenwerk.svg" alt="Studentenwerk Potsdam" style="width: 150px; margin-top:15px; margin-bottom:15px; margin-left: 100px;" />
+</p>
+<p style="text-indent:50px; max-width: 550px;">
+und die Unterstützung durch das hochschulinterne Förderprogramm "Gender in der Lehre".
+</p>
 
 
 ### Kontakt
