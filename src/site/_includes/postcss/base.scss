@@ -47,6 +47,17 @@ h3 {
   padding-top: calc(40px * $desktop_ratio);
 }
 
+.special-links {
+  font-family: $font__family_special;
+  font-weight: normal;
+  font-size: 82.5px;
+  text-decoration:none;
+  line-height: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+
 ul#program, ul#program li, ul#program ul {
   margin:0;
   padding:0;
@@ -130,6 +141,10 @@ ul#location li {
     padding-bottom: 30px;
     padding-top: 40px;
   }
+  .special-links {
+    font-size: 33px;
+    line-height: 30px;
+  }
   ul#program {
     .date {
       padding-left: 30px;
@@ -168,3 +183,4 @@ ul#location li {
 }
 
 @import '_header.scss';
+@import '_raumplan.scss';
