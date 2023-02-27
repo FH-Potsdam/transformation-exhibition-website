@@ -1,0 +1,56 @@
+{
+  "groups": [
+    {
+      "name": "Ausstellung",
+      "people": [
+        "Andrey Aksenov",
+        "Emma Luisa Becker",
+        "Philipp Buhlmann",
+        "Grit Steiner",
+        "Fabian Stetzler",
+        "Max Tamm",
+        "Kira Vogtmann"
+      ]
+    },
+    {
+      "name": "Grafikdesign",
+      "people": [
+        "Tilla Borner",
+        "Marina Ortega Velaz",
+        "Yana Stoeva",
+        "Franka Sühlo",
+        "Jannik Zernke"
+      ]
+    },
+    {
+      "name": "Inhalte",
+      "people": [
+        "Fabian Dietrich",
+        "Jade Eder",
+        "Djamal Okoko",
+        "Lucia Rush-Gleissner",
+        "Jill-Lisa Senkowski",
+        "Melinda Stephan",
+        "Melvin-Eli Urulu"
+      ]
+    },
+    {
+      "name": "Öffentlichkeitsarbeit",
+      "people": [
+        "Takisha Kinder",
+        "Marlene Schrader",
+        "Leo Weinreich",
+        "Shanshan Xia"
+      ]
+    },
+    {
+      "name": "Finanzen",
+      "people": [
+        "Marc Grönke",
+        "Marcel Korbel",
+        "Oliver Lehmann",
+        "Erik Weise"
+      ]
+    }
+  ]
+}

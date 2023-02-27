@@ -15,6 +15,16 @@ eleventyNavigation:
 <p class="special-links"><a href="/de/floorplan/">->Raumplan</a></p>
 <p class="special-links"><a href="/de/seminars/">->seminarübersicht</a></p>
 
+### Team
+<ul id="team">
+{% for g in people.groups %}
+<li>
+  <strong>{{g.name}}</strong>
+  <p>{% for p in g.people %}{% if loop.index0 > 0 %}, {% endif %}{{p}}{% endfor %}</p>
+</li>
+{% endfor %}
+<ul>
+
 ### Programm
 <ul id="program">
   <li>
